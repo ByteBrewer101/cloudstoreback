@@ -2,7 +2,7 @@ const express = require("express");
 const multer = require("multer");
 
 
-//ye makes sure ki file is stored as png or tune jo bhi bheja hai 
+
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "./files");
